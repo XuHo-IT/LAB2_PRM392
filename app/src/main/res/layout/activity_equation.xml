@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giải phương trình bậc 2"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp" />
+
+        <!-- Input A -->
+        <EditText
+            android:id="@+id/edA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập hệ số a"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textSize="18sp" />
+
+        <!-- Input B -->
+        <EditText
+            android:id="@+id/edB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập hệ số b"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textSize="18sp" />
+
+        <!-- Input C -->
+        <EditText
+            android:id="@+id/edC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập hệ số c"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textSize="18sp" />
+
+        <!-- Solve Button -->
+        <Button
+            android:id="@+id/btnSolve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solve Equation"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Result -->
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kết quả:"
+            android:textSize="18sp"
+            android:padding="12dp" />
+
+        <!-- Back Button (moved inside LinearLayout) -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Menu"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
