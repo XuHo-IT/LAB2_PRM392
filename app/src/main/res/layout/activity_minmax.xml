@@ -16,20 +16,11 @@
         android:padding="16dp" />
 
     <EditText
-        android:id="@+id/edNumberA"
+        android:id="@+id/edNumberList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter first number"
-        android:inputType="numberDecimal"
-        android:padding="12dp"
-        android:textSize="18sp" />
-
-    <EditText
-        android:id="@+id/edNumberB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter second number"
-        android:inputType="numberDecimal"
+        android:hint="Enter numbers seperate by commas"
+        android:inputType="text"
         android:padding="12dp"
         android:textSize="18sp" />
 
